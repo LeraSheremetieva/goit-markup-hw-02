@@ -1,0 +1,93 @@
+/* color: #757575; */
+/* main color: #212121; */
+/* color: #FFFFFF; */
+/* color: rgba(255, 255, 255, 0.6); */
+/* color: #2196F3; */
+
+:root {
+    --primary-text-color: #212121;
+    --p-text-color: #757575;
+    --accent-color: #2196F3;
+    --primery-white-color: #FFFFFF;
+    --for-footer: rgba(255, 255, 255, 0.6);
+    --background-color-hf: #2F303A;
+    
+}
+
+body { 
+  background-color: var(--primery-white-color);
+  color: var(--primary-text-color);
+}
+
+/* header */
+ul {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;    
+}
+
+.link.nav {
+    color:var(--primary-text-color);
+    
+}
+
+.link.contacts {
+    color: var(--p-text-color);
+}
+
+.logo {
+    color: var(--accent-color);
+}
+
+.link.nav:hover, 
+.link.nav:focus, 
+.link.contacts:hover, 
+.link.contacts:focus {
+color:var(--accent-color);
+}
+
+/* main */
+
+/* hero */
+
+.hero {
+    background-color:var(--background-color-hf);
+}
+
+.hero-title {
+    color:var(--primery-white-color);
+}
+
+.button {
+    background-color: var(--accent-color);
+    color: var(--primery-white-color);
+}
+
+/* advantage */
+
+.paragraph {
+    color:var(--p-text-color)
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--background-color-hf);
+}
+
+.address {
+    font-style: normal;
+}
+
+.coloring {
+    color:var(--primery-white-color)
+}
+
+.coloring-contacts {
+    color:var(--for-footer);
+}
+
+    /* background-color:var(--background-color-hf) */
+    /* color:var(--primery-white-color); */
