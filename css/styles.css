@@ -35,8 +35,7 @@ body {
     color: var(--primary-title-color);
 }
 
-.footer-link {
-    font-weight: 400;
+.footer-link {    
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -127,8 +126,7 @@ body {
     text-transform: uppercase;
     color: var(--secondary-title-color);
 }
-.advantage-text {
-    font-weight: 400;
+.advantage-text {    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -148,8 +146,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-title-color);
 }
-.text-team {
-    font-weight: 400;
+.text-team {    
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -164,7 +161,7 @@ body {
     color: var(--hiro-white-color);
 }
 .address {
-    font-style: normal;
+    font-style: inherit;
 }
 .address-link {
     color: var(--hiro-white-color);
@@ -176,8 +173,6 @@ body {
     color: var(--accent-color);
 }
 
-
-/* -------------------------Portfolio------------------------------ */
 /* -------------------------Portfolio------------------------------ */
 /* -----------------filters section------------------ */
 .filters-button {
@@ -188,6 +183,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-title-color);
+    cursor: pointer;
 }
 .filters-button:focus, .filters-button:hover {
     background-color: var(--accent-color);
@@ -201,8 +197,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--secondary-title-color);
 }
-.projects-text {
-    font-weight: normal;
+.projects-text {    
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
