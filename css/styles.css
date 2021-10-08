@@ -99,11 +99,24 @@ body {
     letter-spacing: 0.06em;
     color: var(--hiro-white-color);    
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 .hero-button:hover, .hero-button:focus {
     background-color: #188CE8;
 }
 /* ---------------our advantage---------------- */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .advantage-title {
     font-weight: 700;
     font-size: 14px;
